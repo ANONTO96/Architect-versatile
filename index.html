@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Architect versatile</title>
+    <!-- font-awesome cdn -->
+    <script src="https://kit.fontawesome.com/e11fb257ea.js" crossorigin="anonymous"></script>
     <!-- font cdn -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,6 +24,7 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+                "btn-color": '#ABEF5F',
               }
             }
           }
@@ -30,8 +33,36 @@
 </head>
 <body class="font-manrope">
     <!-- header section -->
-    <header>
+    <header class="mx-auto container">
+<nav >
+    <div class="navbar bg-base-100">
+        <div class="navbar-start">
+            <i class="fa-solid fa-arrow-right -rotate-45 bg-btn-color rounded-full w-4"></i>
+          <a class="btn btn-ghost text-xl font-bold">Rinterio</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 gap-4">
+            <li><a>Home</a></li>
+            <li><a>Services</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end gap-7">
+            <i class="fa-solid fa-magnifying-glass text-gray-500"></i>
+            <i class="fa-solid fa-cart-shopping text-gray-500"></i>
+          <button class="btn bg-btn-color text-black rounded-3xl px-7">
+            Book Contact
+            <i class="fa-solid fa-arrow-right -rotate-45 bg-black text-white rounded-full w-4 "></i>
+          </button>
+        </div>
+      </div>
+</nav>
+<!-- intro -->
+<div>
 
+</div>
     </header>
     <!-- main section -->
     <main>
