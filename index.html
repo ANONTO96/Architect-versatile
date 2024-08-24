@@ -17,6 +17,9 @@
         .font-manrope{
             font-family: "Manrope", sans-serif;
         }
+        .bg{
+          background-image: url(assets/bg.jpg);
+        }
     </style>
     <script>
         tailwind.config = {
@@ -205,9 +208,41 @@
           </div>
          </div>
        </section>
-       
+       <!-- latest portfolio section -->
+       <section class="w-[80%] mx-auto mt-20">
+        <!-- text -->
+        <div class="text-center my-6 leading-10">
+         <button class="bg-btn-color-2 rounded-xl font-bold w-50 px-2">
+           <i class="fa-solid fa-arrow-right  text-black w-4 "></i>
+           Explore our Latest works
+         </button>
+     <h1 class="text-3xl font-bold">Our Latest Portfolio</h1>
+     <p>The barn house captivates with its blend of rustic charm and modern sophistication, <br>featuring weathered wood, sleek metal accents.</p>
+        </div>
+   <!-- grid -->
+     <div class="grid grid-cols-1 items-center md:grid-cols-2 lg:grid-cols-3 gap-5">
+       <img class="w-[100%] md:h-[95%] lg:" src="assets/img1.png" alt="">
+       <div class="grow rounded-2xl shadow-2xl p-5 mb-6 md:h-[100%]">
+<h4 class="font-bold text-lg ">Commercial</h4>
+<p class="text-gray-600">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+<h4>View Details
+ <i class="fa-solid fa-arrow-right -rotate-45 bg-btn-color text-black rounded-full w-4 "></i></h4>
+       </div>
+       <img class="mb-6 w-[100%] md:h-[90%]" src="assets/img2.png" alt="">
+       <img class="mb-6 w-[100%]" src="assets/img3.png" alt="">
+       <img class=" w-[100%] md:h-[90%]" src="assets/img4.png" alt="">
+       <div class="grow rounded-2xl shadow-2xl p-5 mb-6 md:h-[100%]">
+         <h4 class="font-bold text-lg ">Commercial</h4>
+         <p class="text-gray-600">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+         <h4>View Details
+           <i class="fa-solid fa-arrow-right -rotate-45 bg-btn-color text-black rounded-full w-4 "></i></h4>
+       </div>
+       <img class="w-[100%] mb-7" src="assets/img5.png" alt="">
+       <img class="mb-6 w-[100%] lg:hidden" src="assets/img3.png" alt="">
+     </div>
+     </section>
        <!-- next project section -->
-        <section class="my-20 p-5 bg-blue-50">
+        <section class="my-20 p-5 bg">
     <div class=" md:w-[75%] lg:w-[55%] mx-auto">
                 <!-- text -->
                 <div class="text-center my-6 leading-10">
